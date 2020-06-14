@@ -24,7 +24,7 @@
             <a href="index.html">PÁGINA INICIAL</a>|
             <a href="LANCHES.HTML">LANCHES</a>|
             <a href="BEBIDAS.HTML">BEBIDAS</a>|
-            <a href="SOBREMESAS.HTML">SOBREMESAS</a>
+            <a href="SOBREMESAS.HTML">SOBREMESAS</a>|
             <a href="quest.html">Ganhe seu desconto</a>
         </nav>
     </header>
