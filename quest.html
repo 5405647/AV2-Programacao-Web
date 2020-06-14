@@ -34,7 +34,7 @@
         <div class="corpo">
             <h1>Garanta o seu desconto</h1>
             <form name="form1">
-                <p>1) Qual IMC abaioxo considerado como sobrepeso?</p>
+                <p>1) Qual IMC abaixo é considerado como "sobrepeso"?</p>
                 <br>
                 <input type="radio" name="questao" value="a" id="a1" /> A) Entre 18,5 e 24,9 ;</label>
                 <br>
@@ -51,7 +51,7 @@
             </form>
 
             <form name="form2">
-                <p>2) A Alimentação Saudável significa fornecer ao seu corpo um suprimento de proteína de alta qualidade por meio de alimentos saudáveis, promoverá o que?</p>
+                <p>2) A alimentação Saudável significa fornecer ao seu corpo um suprimento de proteína de alta qualidade por meio de alimentos saudáveis, que pode promover o que?</p>
                 <br>
                 <input type="radio" name="questao" value="a" id="a2" /> A) Aumento de gordura;</label>
                 <br>
@@ -87,7 +87,7 @@
             <form name="form4">
                 <p>4) Os carboidratos saudáveis são carboidratos bons. Marque abaixo a alternativa falsa?</p>
                 <br>
-                <input type="radio" name="questao" value="a" id="a4" /> A) fornecedores de energia rápida;</label>
+                <input type="radio" name="questao" value="a" id="a4" /> A) são fornecedores de energia rápida;</label>
                 <br>
                 <label>
                     <input type="radio" name="questao" value="b" id="b4" /> B) manter em grande forma seus principais sistemas corporais como o cérebro;</label>
@@ -115,7 +115,7 @@
                 <label>
                 <input type="radio" name="questao" value="d" id="d5" /> D) Carnes suínas.</label>
             </form>
-            <input id="botao" type="submit" value="Enviar" onclick="validarForm()">
+            <input id="botao" type="submit" value="Concluir" onclick="validarForm()">
             <p id="resultado"></p>
 
 
@@ -157,7 +157,7 @@
                         acertos++;
                     } else {}
 
-                    document.getElementById('resultado').innerHTML = "Total de acertos: " + acertos + " de 5";
+                    document.getElementById('resultado').innerHTML = "Total de acertos: " + acertos + " de 5.<br> 1) b - Entre 25, 0 e 29, 9 ";
 
                     document.getElementById('botao').disabled = true;
                 }
