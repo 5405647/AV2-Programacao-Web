@@ -9,7 +9,7 @@
 </head>
 <style>
     body {
-        background-image: url('IMG/FUNDO.JPEG');
+        background-image: url('IMG/FUNDO.jpeg');
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
