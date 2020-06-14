@@ -33,3 +33,8 @@ footer {
     background-color: rgba(0, 0, 0, 0.733);
     height: 20px;
 }
+
+nav {
+    color: white;
+    font: normal 15pt verdana;
+}
