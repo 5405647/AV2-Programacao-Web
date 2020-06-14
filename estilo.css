@@ -20,6 +20,7 @@ section {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
     color: rgb(9, 64, 66);
     text-align: center;
+    align-items: center;
 }
 
 footer {
