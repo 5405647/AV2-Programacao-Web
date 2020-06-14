@@ -27,14 +27,14 @@
                 <p>Por que somos diferentes?</p>
                 <table>
                     <tr>
-                        <td><img src="img/AOVIVO.JPG" class="imgi"><br>Musica ao vivo todos os finais de semana;</td>
-                        <td><img src="img/AMBI.JPG" class="imgi"><br> Ambiente agradável;</td>
+                        <td><img src="img/AOVIVO.jpg" class="imgi"><br>Musica ao vivo todos os finais de semana;</td>
+                        <td><img src="img/AMBI.jpg" class="imgi"><br> Ambiente agradável;</td>
                     </tr>
                     <tr>
-                        <td><img src="img/SANDU.JPG" class="imgi"><br>Lanches rápidos;</td>
+                        <td><img src="img/SANDU.jpg" class="imgi"><br>Lanches rápidos;</td>
                     </tr>
                     <tr>
-                        <td><img src="img/BEBID.JPG" class="imgi"><br>Completa linha de bebidas;</td>
+                        <td><img src="img/BEBID.jpg" class="imgi"><br>Completa linha de bebidas;</td>
                         <td><img src="img/SOBRE.webp" class="imgi"><br>Não esqueça da sobremesa.</td>
                     </tr>
                 </table>
