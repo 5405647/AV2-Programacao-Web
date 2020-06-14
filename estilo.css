@@ -1,6 +1,5 @@
 body {
-    font: normal 15pt Arial;
-    background-color: black;
+    font: 15pt Arial;
 }
 
 header {
@@ -30,9 +29,4 @@ footer {
     padding: 30px 10%;
     background-color: rgba(0, 0, 0, 0.733);
     height: 20px;
-}
-
-img.imgi {
-    width: 10%;
-    height: 50;
 }
