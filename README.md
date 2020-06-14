@@ -19,7 +19,7 @@
         </nav>
     </header>
     <section>
-        <divID="txti">
+        <div id="txti">
             <h1>Passe bons momentos com seus amigos, ou com aquela pessoa especial em sua vida, na
                 <EM><strong>FAST FOOD FITNESS</strong></EM>.</h1>
             </div>
@@ -27,7 +27,7 @@
                 <p>Por que somos diferentes?</p>
                 <table>
                     <tr>
-                        <td><img src="img/AOVIVO.jpg" class="imgi"><br>Musica ao vivo todos os finais de semana;</td>
+                        <td><img src="img/AOVIVO.jpg"  class="imgi"><br>Musica ao vivo todos os finais de semana;</td>
                         <td><img src="img/AMBI.jpg" class="imgi"><br> Ambiente agradável;</td>
                     </tr>
                     <tr>
