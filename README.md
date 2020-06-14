@@ -19,7 +19,7 @@
 </style>
 <body>
     <header>
-        <h1> FAST FOOD FITNESS</h1>
+        <h1> FASTFOOD FITNESS</h1>
         <nav>
             <a href="index.html">PÁGINA INICIAL</a>|
             <a href="LANCHES.HTML">LANCHES</a>|
