@@ -20,7 +20,7 @@
 <body>
     <header>
         <h1> FASTFOOD FITNESS</h1>
-        <nav>
+        <nav id="nav">
             <a href="index.html">PÁGINA INICIAL</a>|
             <a href="LANCHES.HTML">LANCHES</a>|
             <a href="BEBIDAS.HTML">BEBIDAS</a>|
