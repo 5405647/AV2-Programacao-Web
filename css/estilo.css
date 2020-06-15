@@ -34,7 +34,7 @@ footer {
     height: 20px;
 }
 
-div#nv {
-    color: white;
+a {
+    color: rgb(168, 161, 161);
     font: normal 15pt verdana;
 }
