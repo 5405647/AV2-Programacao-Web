@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAST FOOD FITNESS</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<style>
+    body {
+        background-image: url('img/FUNDO.jpeg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
+<body>
+
+    <header>
+        <h1> FASTFOOD FITNESS</h1>
+        <nav id="nav">
+            <a href="index.html">PÁGINA INICIAL</a>|
+            <a href="LANCHES.HTML">LANCHES</a>|
+            <a href="BEBIDAS.HTML">BEBIDAS</a>|
+            <a href="SOBREMESAS.HTML">SOBREMESAS</a>|
+            <a href="quest.html">TESTE</a>
+        </nav>
+    </header>
+    <section>
+        <div>
+            <p> Ano de Nascimento:
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+
+    </section>
+    <footer>
+        <p>web designer: Alan Almeida (matri:5405647)</p><br>
+        <p>E-mail: <a href="mailto:alan.almeida@unigranrio.br"> alan.almeida@unigranrio.br</a></p><br>
+        <p>Todos os direitos reservados &copy 2020</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
