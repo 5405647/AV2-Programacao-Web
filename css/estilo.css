@@ -38,3 +38,75 @@ a {
     color: rgb(255, 255, 255);
     font: normal 15pt verdana;
 }
+
+.engraved {
+    background: #666;
+    border: 2px solid #777;
+    color: #000;
+    text-shadow: 0px 1px 1px #fff;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    display: inline-block;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    outline: none;
+    position: relative;
+    margin: 10px;
+    padding: 20px 28px;
+    white-space: nowrap;
+    border-radius: 16px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.btn {
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn-gray {
+    background: rgb(129, 129, 129);
+    color: black;
+    box-shadow: 0 5px rgb(12, 0, 0);
+}
+
+.btn-gray:hover {
+    background: rgb(56, 56, 56);
+    color: black;
+    box-shadow: 0 5px rgb(12, 0, 0);
+}
+
+.btn-gray:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.btnvcn {
+    font-family: arial;
+    font-size: 6px;
+    font-weight: 700;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.barraform1 {
+    width: 40%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+    text-align: justify;
+    font-family: 'Bree Serif', serif;
+    font-weight: 200;
+    font-size: 18px;
+    background-color: rgb(255, 254, 254);
+}
