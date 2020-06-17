@@ -69,6 +69,16 @@ a {
     cursor: pointer;
 }
 
+.btn1 {
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 800px;
+}
+
 .btn-gray {
     background: rgb(129, 129, 129);
     color: black;
