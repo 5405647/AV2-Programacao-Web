@@ -47,3 +47,72 @@ function verificar() {
         res.appendChild(img)
     }
 }
+
+// texto animado
+var novmsg = "";
+var i = 0;
+var linha = 1;
+var tempo = null;
+var msg = " ";
+
+function txtfull() {}
+var txtcorpo = new txtfull();
+
+txtcorpo[1] = "Confira também nossas ofertas diárias,"
+txtcorpo[2] = "venha nos visitar.  "
+txtcorpo[3] = "Estamos no primeiro andar do Caxias Shopping,   "
+txtcorpo[4] = "venha nos conhecer.  "
+txtcorpo[5] = "Para maiores informações ligue: (21) 2121-2121.   "
+txtcorpo[6] = "NÃO ACREDITO QUE VOCÊ VAI FICAR FORA DESSA!"
+txtcorpo[7] = "FASTFOOD FITNESS!   "
+txtcorpo[8] = "  Sempre cuidando de você!!!"
+
+var txtpt = 1;
+var txtcon = 8;
+var veloc = 200;
+var txttr = 4;
+var delay = veloc;
+var r = 0;
+var cr = "\r\n"
+if ("3" <= navigator.appVersion.charAt(0)) {
+    var cr = "\n"
+}
+for (x = 1; x <= (txtcon); x++) {
+    txtcorpo[x] = txtcorpo[x] + cr;
+}
+msg = txtcorpo[1];
+
+function msgtxt() {
+    if (msg.length <= i || msg.charAt(i) == "\f") {
+        r = i;
+        i = 0;
+        txtexe();
+    }
+    novmsg = novmsg + msg.charAt(i);
+    i++;
+    if (msg.charAt(i) == "\f" || (linha == txttr && i == msg.length)) {
+        delay = 4000;
+    } else {
+        if (msg.charAt(i) == cr && msg != " " + cr) {
+            delay = 2000;
+        } else {
+            delay = veloc;
+        }
+    }
+    self.document.forms[0].elements[0].value = novmsg;
+    tempo = setTimeout("msgtxt()", delay);
+}
+
+function txtexe() {
+    txtpt++;
+    if (txtcon < txtpt) {
+        txtpt = 1;
+    }
+    linha++;
+    if (txttr < linha || msg.charAt(r) == "\f") {
+        novmsg = txtcorpo[txtpt].charAt(i);
+        i++;
+        linha = 1;
+    }
+    msg = txtcorpo[txtpt];
+}
