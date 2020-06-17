@@ -110,3 +110,16 @@ a {
     font-size: 18px;
     background-color: rgb(255, 254, 254);
 }
+
+h1 {
+    TEXT-ALIGN: CENTER;
+    font-size: 60px;
+    color: white;
+    font-family: Ravie;
+}
+
+h2 {
+    TEXT-ALIGN: CENTER;
+    font-size: 40px;
+    color: rgb(9, 64, 66);
+}
