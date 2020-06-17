@@ -22,16 +22,20 @@
         <h1> FASTFOOD FITNESS</h1>
         <nav id="nav">
             <a href="index.html">PÁGINA INICIAL</a>|
-            <a href="LANCHES.HTML">LANCHES</a>|
-            <a href="BEBIDAS.HTML">BEBIDAS</a>|
-            <a href="SOBREMESAS.HTML">SOBREMESAS</a>|
-            <a href="quest.html">Ganhe seu desconto</a>
+                <a href="LANCHES.HTML">LANCHES</a>|
+                <a href="BEBIDAS.HTML">BEBIDAS</a>|
+                <a href="SOBREMESAS.HTML">SOBREMESAS</a>|
+                <a href="quest.html">TESTE</a>|
+                <a href="voce.html">IDADE</a>
         </nav>
     </header>
     <section>
         <div id="txti">
             <h1>Passe bons momentos com seus amigos, ou com aquela pessoa especial em sua vida, na
                 <EM><strong>FAST FOOD FITNESS</strong></EM>.</h1>
+                <form name="msgform" action="">
+                <input type="button" class="engraved btn btn-gray" value="Clique aqui para mais informações" onClick="msgtxt()">
+            </form>
         </div>
         <div id="txtc">
             <p>Por que somos diferentes?</p>
@@ -62,7 +66,7 @@
         <p>E-mail: <a href="mailto:alan.almeida@unigranrio.br"> alan.almeida@unigranrio.br</a></p><br>
         <p>Todos os direitos reservados &copy 2020</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
