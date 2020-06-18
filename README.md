@@ -26,7 +26,8 @@
                 <a href="BEBIDAS.HTML">BEBIDAS</a>|
                 <a href="SOBREMESAS.HTML">SOBREMESAS</a>|
                 <a href="quest.html">TESTE</a>|
-                <a href="voce.html">IDADE</a>
+                <a href="voce.html">IDADE</a>|
+                <a href="corra.html">NÃO CLIQUE</a>
         </nav>
     </header>
     <section>
