@@ -28,35 +28,88 @@
             <a href="BEBIDAS.HTML">BEBIDAS</a>|
             <a href="SOBREMESAS.HTML">SOBREMESAS</a>|
             <a href="quest.html">TESTE</a>|
-            <a href="voce.html">IDADE</a>|
-            <a href="corra.html">NÃO CLIQUE</a>
+            <a href="voce.html">IDADE</a>
         </nav>
     </header>
     <section>
         <div>
             <h2>Brinque com sua idade</h2>
-            <p> Ano de Nascimento:
-                <input type="number" class="barraform1" name="txtano" id="txtano" min="0">
+            Ano de Nascimento:
+            <input type="number" class="barraform1" name="txtano" id="txtano" min="0">
             </p>
-            <p>Sexo:
-                <input type="radio" name="radsex" id="mas" checked>
-                <label for="mas">Masculino</label>
-                <input type="radio" name="radsex" id="fem">
-                <label for="fem">Feminino</label>
+            Sexo:
+            <input type="radio" name="radsex" id="mas" checked>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
             </p>
-            <p>
-                <input type="button" class="botao engraved btn btn-gray" value="Verificar" onclick="verificar()">
+
+            <input type="button" class="botao engraved btn btn-gray" value="Verificar" onclick="verificar()">
             </p>
         </div>
         <div id="res">
             Preencha os dados acima para ver o resultado!
         </div>
+        <h3>Tempo de Vida atual</h3>
+        <div class="form-groupimc">
 
+            <table>
+                <tr>
+
+                    <td></td>
+                    <td>
+                        <form name="live">
+                            <div>
+
+                                <p>
+                                    <script language="JAVASCRIPT">
+                                        var hoje = new Date()
+                                        dayStr = hoje.toLocaleString();
+                                        document.write("<b>Hoje: ");
+                                        document.write(dayStr);
+                                        document.write("</b>");
+                                    </script>
+                                </p>
+                            </div>
+                            <hr>
+                            <div>
+
+                                <p><strong>Escreva sua data de nascimento (em Inglês):<input type="text" size="20" name="age"> <br>Exemplo: august 16,1994 (data de nascimento). <br>&nbsp; </strong></p>
+                                </p>
+                            </div>
+                            <div>
+                                <div>
+                                    <table>
+                                        <tr>
+                                            <td><strong><p>Você tem:</strong>
+
+                                                <strong><input type="text" size="7" name="time1"> dias, </strong>
+                                                <strong><input type="text" size="7" name="time2"> horas e</strong>
+                                                <strong><input type="text" size="8" name="time3"> minutos de idade. </p></strong>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                </div>
+                                <div>
+
+                                    <p><strong><input type="button" name="start" value="Tempo de vida" class="botao engraved btn btn-gray" onclick="relbio(this.form)"></strong></p>
+                                    </p>
+                                </div>
+                            </div>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+
+                    <td></td>
+                </tr>
+            </table>
+        </div>
     </section>
     <footer>
-        <p>web designer: Alan Almeida (matri:5405647)</p><br>
-        <p>E-mail: <a href="mailto:alan.almeida@unigranrio.br"> alan.almeida@unigranrio.br</a></p><br>
-        <p>Todos os direitos reservados &copy 2020</p>
+        web designer: Alan Almeida (matri:5405647)</p><br> E-mail: <a href="mailto:alan.almeida@unigranrio.br"> alan.almeida@unigranrio.br</a></p><br> Todos os direitos reservados &copy 2020</p>
     </footer>
     <script src="js/script.js"></script>
 </body>

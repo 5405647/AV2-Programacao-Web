@@ -116,3 +116,24 @@ function txtexe() {
     }
     msg = txtcorpo[txtpt];
 }
+
+// 
+function relbio() {
+    hoje = new Date()
+    aniv = new Date(document.live.age.value)
+    idade = (hoje.getTime() - aniv.getTime());
+    segtemid = idade / 1000;
+    segundo = Math.floor(segtemid);
+    mspordia = 24 * 60 * 60 * 1000;
+    idade = (hoje.getTime() - aniv.getTime());
+    diapss = idade / mspordia;
+    diaspsd = Math.floor(diapss);
+    horasps = (diapss - diaspsd) * 24;
+    hrpsd = Math.floor(horasps);
+    minpsd = Math.floor((horasps - hrpsd) * 60);
+    document.live.time1.value = diaspsd
+    document.live.time2.value = hrpsd
+    document.live.time3.value = minpsd
+    window.status = "Total de " + segundo + "............ segundos de vida.";
+    timerID = setTimeout("relbio()", 1000)
+}
